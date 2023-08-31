@@ -17,9 +17,9 @@ REG ADD HKLM\SYSTEM\CurrentControlSet\Control\ComputerName\ComputerName /v Compu
 REG ADD HKLM\SYSTEM\CurrentControlSet\Control\ComputerName\ActiveComputerName\ /v ComputerName /t REG_SZ /d luciaximena /f
 REG ADD HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\ /v Hostname /t REG_SZ /d luciaximena /f
 REG ADD HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\ /v "AD Host" /t REG_SZ /d luciaximena /f
-REG ADD HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\OEMInformation /v Manufacturer /t REG_SZ /d "Acer" /f
-REG ADD HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\OEMInformation /v Model /t REG_SZ /d "Acer Aspire V5-431" /f
-REG ADD HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\OEMInformation /v SupportURL /t REG_SZ /d "https://github.com/RavensVenix/Free-RDPV4/issues" /f
+REG ADD HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\OEMInformation /v Manufacturer /t REG_SZ /d "Axioo" /f
+REG ADD HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\OEMInformation /v Model /t REG_SZ /d "Axioo Mypc A5h" /f
+REG ADD HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\OEMInformation /v SupportURL /t REG_SZ /d "https://github.com/RavensVenix/Rdp_Free_2023/issues" /f
 REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v TaskbarSmallIcons /t REG_DWORD /d 1 /f
 reg add "HKCU\Control Panel\Desktop" /v Wallpaper /f /t REG_SZ /d d:\a\wallpaper.bmp
 RUNDLL32.EXE user32.dll,UpdatePerUserSystemParameters
